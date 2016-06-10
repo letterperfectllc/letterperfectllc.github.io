@@ -13,6 +13,9 @@ font:
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
   header: '"Kaushan Script", cursive'
 
+gems:
+  - jekyll-sitemap
+
 # Google webmaster tools
 google_verify:
 

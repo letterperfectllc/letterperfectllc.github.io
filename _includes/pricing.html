@@ -1,17 +1,80 @@
 <section class="bg-primary" id="pricing">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 text-center"></div>
-            <div class="col-lg-6 col-md-6 text-center">
+            <div class="col-lg-2 col-md-6 text-center"></div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-dollar wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3>Service Prices</h3>
+                    <p class="text-faded">I provide free consultations and a simple hourly pricing schedule.</p>
+                </div>
+                <br>
+                <a href="#pricing-modal" class="btn btn-default btn-xl" data-toggle="modal">Details</a>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-credit-card wow bounceIn text-primary" data-wow-delay=".2s"></i>
                     <h3>Flexible Payment Options</h3>
                     <p class="text-faded">We're all in different places along the path.<br>I provide multiple payment options to meet your budget needs.</p>
                 </div>
                 <br>
-                <a href="#about" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                <a href="#billing-modal" class="btn btn-default btn-xl" data-toggle="modal">Learn More</a>
             </div>
-            <div class="col-lg-3 col-md-3 text-center"></div>
+            <div class="col-lg-2 col-md-6 text-center"></div>
         </div>
     </div>
+    
+ <!-- Pricing Modals -->
+    <div class="portfolio-modal modal fade" id="pricing-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-content">
+                            <div class="bg-dark modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
+                                <h2 class="modal-title">Service Prices</h2>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h3 class="text-muted">Complementary Services</h3>
+                                <p class="item-intro text-muted">I will schedule a complementary 30-minute meeting, in person or by phone, to discuss your project and how we can work together.</p>
+                                <p class="text-muted">I will provide a copy edit or developmental edit of the first five pages of your manuscript. This will help to provide a reasonable estimate of the time and cost for working on the proejct, as well as allowing you to determine if I am a good fit for your needs.</p>
+                                <h3 class="text-muted">Pricing</h3>
+                                <p class="text-muted">All services are charged at a simple $40 per hour rate.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="billing-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-content">
+                            <div class="bg-dark modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
+                                <h2 class="modal-title">Billing Options</h2>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h3 class="text-muted">Monthly</h3>
+                                <p class="item-intro text-muted">Billing is completed on the final day of each month for any work done within that month. Payment is due within 14 days of receipt of the invoice unless otherwise negotiated.</p>
+                                <h3 class="text-muted">Installments</h3>
+                                <p class="text-muted">Payments may be spread out over time to help meet your needs. Feel free to propose an approach that works for your budget. After we agree on a payment schedule, I will present a contract for both of us to sign.</p>
+                                <h3 class="text-muted">Monetary Cap</h3>
+                                <p class="text-muted">Set a dollar limit for your project, and I will do as much work as possible within your budget.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>

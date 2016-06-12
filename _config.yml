@@ -10,7 +10,7 @@ collections:
     output: true
 company: Letter Perfect, LLC
 email: lynnette@letterperfectllc.com
-url: https://letterperfectllc.github.io
+url: http://5ix8q6vr6kg29a.preview.forestry.io
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
@@ -50,3 +50,4 @@ credits: Freelancer is a free to use, open source Bootstrap theme created by <a 
   Bootstrap</a>.
 markdown: kramdown
 permalink: pretty
+baseurl: ''

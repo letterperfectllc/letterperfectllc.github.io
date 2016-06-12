@@ -11,10 +11,7 @@ collections:
 company: Letter Perfect, LLC
 email: lynnette@letterperfectllc.com
 url: https://letterperfectllc.github.io
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-skills: Copy Editor - Proofreader - Developmental Editor
+description: Letter Perfect copy editing, proofreading, and developmental editing by Lynnette P. Horner
 meta_author: Horner Robert
 font:
   primary: Lato, "Helvetica Neue",Helvetica,Arial,sans-serif
@@ -22,10 +19,6 @@ font:
   header: '"Kaushan Script", cursive'
 gems:
 - jekyll-sitemap
-google_verify: 
-bing_verify: 
-contact: static
-disqus_shortname: myshortname
 color:
   primary: 799250
   secondary: 2c3e50
@@ -36,17 +29,8 @@ footer:
   location: Location
   social: Online
   credits: Credits
-social:
-- title: twitter
-  url: http://twitter.com/jekyllrb
-- title: facebook
-  url: 
-- title: linkedin
-  url: http://github.com/jekyll
-address:
-- line: 8107 S Garfield Way
-- line: Centennial, CO 80122
-credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start
-  Bootstrap</a>.
 markdown: kramdown
 permalink: pretty
+sass:
+  sass_dir: _sass
+  style: nested
